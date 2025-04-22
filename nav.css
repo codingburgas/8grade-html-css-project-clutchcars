@@ -1,0 +1,63 @@
+nav{
+    background-color: transparent;
+    padding: 30px;
+}
+
+.navUl{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login{
+    background-color: transparent;
+    margin-left: auto;
+}
+
+.loginText{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginText:hover{
+    color: rgb(171, 255, 241);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.navLi{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.navLi:hover{
+    color: rgb(171, 255, 241);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.language {
+    text-decoration: none;
+    margin-left: 10px;
+    background-image: url(Flag_of_the_United_Kingdom_\(3-5\).svg.png);
+    background-size: cover;
+    background-position: center;
+    height: 30px;
+    width: 50px;
+}
+
+.language:hover{
+    background-image: url(Flag_of_Bulgaria.svg.png);
+    transition: 0.1s;
+    background-size: cover;
+    background-position: center;
+    height: 30px;
+    width: 50px;
+    transition: 0.3s;
+}
