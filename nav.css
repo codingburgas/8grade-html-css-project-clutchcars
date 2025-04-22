@@ -23,14 +23,14 @@ nav{
 }
 
 .loginText:hover{
-    color: rgb(171, 255, 241);
+    color: rgb(0, 255, 229);
     text-decoration: underline;
     transition: 0.3s;
 }
 
 .navLi{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 255, 229);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-left: auto;
