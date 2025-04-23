@@ -40,14 +40,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    filter: blur(2px);
+    filter: blur(1px);
     z-index: -1;
 }
   
 
 .formDiv{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     margin-top: 20px;
@@ -62,8 +62,43 @@ label{
 
 section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+}
+
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #888;
+}
+
+select {
+    width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select:focus {
+    border-color: #55f1ff;
+    outline: none;
+    box-shadow: 0 0 5px rgb(0, 130, 126);
 }

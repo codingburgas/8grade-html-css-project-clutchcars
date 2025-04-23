@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent a car!</title>
     <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/indexStyle.css">
 </head>
 <body>
     <video autoplay muted loop id="myVideo"><source src="2025-Hennessey-Super-Venom-Mustang-Dark-Horse-001.mp4" type="video/mp4"></video>
@@ -33,8 +33,15 @@
                             <label name="location">Place</label>
                             <a href="#">Return</a>
                         </div>
-                        <div>
-                            <input type="geolocation" name="location" id="location" placeholder="Enter your location" required>
+                        <div class="dropDownContainer">
+                            <select id="location" name="location">
+                                <option>Skyreach Airport - Terminal 3 (SKR)</option>
+                                <option>Driftwood Harbor (DWH)</option>
+                                <option>Novaterra Intergalactic Hub (NGX)</option>
+                                <option>Elysium City - Gate 5 (ELY)</option>
+                                <option>Crystal Bay Transit Station (CBT)</option>
+                                <option>Ironpine Station (IPS)</option>
+                            </select>
                         </div>
                     </div>
                     <div>
