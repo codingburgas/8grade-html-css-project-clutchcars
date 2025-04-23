@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent a car!</title>
     <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/indexStyle.css">
 </head>
 <body>
+    <video autoplay muted loop id="myVideo"><source src="media/videos/xl.mp4" type="video/mp4"></video>
     <header>
         <nav>
             <div class="navUl">
                 <a href="index.html"><img src="logo.png" alt="Logo"></a>
                 <a href="#" class="navLi">News</a>
                 <div class="login"><a href="#" class="loginText">Rent now</a></div>
-                <div class="language"></div>
             </div>
         </nav>
         <hr>
@@ -26,30 +26,105 @@
                 <h1>No time wasted - get your car right at the terminal!</h1>
             </div>
             <form>
-                <div>
-                    <div>
+                <div class="formDiv">
+                    <div class="inputContainer">
                         <div>
-                            <h2>Place</h2>
+                            <label name="location">Place</label>
                             <a href="#">Return</a>
                         </div>
+                        <div class="dropDownContainer">
+                            <select id="location" name="location" required>
+                                <option>Skyreach Airport - Terminal 3 (SKR)</option>
+                                <option>Driftwood Harbor (DWH)</option>
+                                <option>Novaterra Intergalactic Hub (NGX)</option>
+                                <option>Elysium City - Gate 5 (ELY)</option>
+                                <option>Crystal Bay Transit Station (CBT)</option>
+                                <option>Ironpine Station (IPS)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inputContainer">
+                        <div>
+                            <label name = "pickUpDate">Pick up time</label>
+                        </div>
+                        <div class="timeContainer">
+                            <input type = "date" name = "pickUpDate" placeholder = "dd / mm / yyyy" onfocus="(this.type='date')" onblur="(this.type='text')" required class="dateInput"> 
+                            <div>
+                                <select id="location" name="location" required class="dropDownTime">
+                                    <option>23:00</option>
+                                    <option>22:00</option>
+                                    <option>20:00</option>
+                                    <option>19:00</option>
+                                    <option>18:00</option>
+                                    <option>17:00</option>
+                                    <option>16:00</option>
+                                    <option>15:00</option>
+                                    <option>14:00</option>
+                                    <option>13:00</option>
+                                    <option>12:00</option>
+                                    <option>11:00</option>
+                                    <option>10:00</option>
+                                    <option>9:00</option>
+                                    <option>8:00</option>
+                                    <option>7:00</option>
+                                    <option>6:00</option>
+                                    <option>5:00</option>
+                                    <option>4:00</option>
+                                    <option>3:00</option>
+                                    <option>2:00</option>
+                                    <option>1:00</option>
+                                    <option>0:00</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inputContainer">
+                        <div>
+                            <label name = "returnDate">Return date</label>
+                        </div>
+                        <div class="timeContainer">
+                            <input type = "date" name = "returnDate" placeholder = "dd / mm / yyyy" onfocus="(this.type='date')" onblur="(this.type='text')" required class="dateInput"> 
+                            <div>
+                                <select id="location" name="location" required class="dropDownTime">
+                                    <option>23:00</option>
+                                    <option>22:00</option>
+                                    <option>20:00</option>
+                                    <option>19:00</option>
+                                    <option>18:00</option>
+                                    <option>17:00</option>
+                                    <option>16:00</option>
+                                    <option>15:00</option>
+                                    <option>14:00</option>
+                                    <option>13:00</option>
+                                    <option>12:00</option>
+                                    <option>11:00</option>
+                                    <option>10:00</option>
+                                    <option>9:00</option>
+                                    <option>8:00</option>
+                                    <option>7:00</option>
+                                    <option>6:00</option>
+                                    <option>5:00</option>
+                                    <option>4:00</option>
+                                    <option>3:00</option>
+                                    <option>2:00</option>
+                                    <option>1:00</option>
+                                    <option>0:00</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="submitButton">Next</button>
+                </div>
+                <div class="ratioContainer">
+                    <label for="pickUp">
+                    <input type="radio" id="pickUp" name="pickUp">
+                    Automat
+                    </label>
 
-                        <div>
-                            <input type="geolocation" name="location" id="location" placeholder="Enter your location" required>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                        </div>
-                        <div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                        </div>
-                        <div>
-                        </div>
-                    </div>
-                    <button type="submit">Next</button>
+                    <label for="pickUp">
+                    <input type="radio" id="pickUp" name="pickUp">
+                    Manual
+                    </label>
                 </div>
             </form>
         </section>
