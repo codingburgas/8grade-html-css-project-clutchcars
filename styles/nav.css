@@ -11,7 +11,6 @@ nav{
 }
 
 .login{
-    background-color: transparent;
     margin-left: auto;
 }
 
@@ -28,16 +27,7 @@ nav{
     transition: 0.3s;
 }
 
-.navLi{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: auto;
-}
-
-.navLi:hover{
-    color: rgb(0, 255, 229);
-    text-decoration: underline;
-    transition: 0.3s;
+.logo{
+    width: 170px;
+    height: 80px;
 }
