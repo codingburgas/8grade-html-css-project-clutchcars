@@ -100,18 +100,19 @@ section{
 }
 
 
-.dropdown-container {
+.dropdownContainer {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-container::after {
+.dropdownContainer::after {
     position: absolute;
     top: 50%;
     right: 16px;
     transform: translateY(-50%);
     pointer-events: none;
     color: #888;
+    height: 100px;
 }
 
 select {
@@ -242,6 +243,10 @@ select:focus {
     height: auto;
 }
 
+.carGrid a {
+    text-decoration: none;
+}
+
 .carCard:hover {
     transform: scale(1.05);
     background-color: #55f1ff;
@@ -289,6 +294,7 @@ main {
     color: white;
     padding: 40px 20px;
     text-align: center;
+    margin: 0;
 }
 
 .promoContent h3 {
@@ -300,6 +306,7 @@ main {
 .promoContent p {
     font-size: 16px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .promoIcons {
@@ -347,6 +354,7 @@ main {
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
+    margin: -20px 0 0 0;
 }
 
 .whyUsSection img {
@@ -401,25 +409,26 @@ main {
 }
 
 .contactButtons {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    background-color: transparent;
     color: #333;
-    padding: 16px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    border: #333;
-    align-items: center;
-    margin-top: 21px;
-    background-color: transparent;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .contactButtons:hover {
-    background-color: #55f1ff;
+    background-color: #333;
     color: white;
     transition: 0.3s;
-    border: none;
 }
-
 
 .contactSection {
     background: #55f1ff;
@@ -427,8 +436,8 @@ main {
     width: 110%;
     padding: 20px;
     justify-content: center;
-    align-items: center;
     gap: 20px;
+    margin: -20px 0 0 0;
 }
 
 .contactSection h1 {
@@ -454,6 +463,7 @@ main {
     text-align: left;
     font-weight: bold;
     color: #333;
+    text-decoration: none;
 }
 
 .contactButtonsContainer {
@@ -461,5 +471,8 @@ main {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    text-align: left;
+}
+
+.contactButtonsContainer a{
+    text-decoration: none;
 }

@@ -1,0 +1,117 @@
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footerLocations{
+    text-align: left;
+    flex-direction: column;
+}
+
+.footerLocations h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerLocations li{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerLocations a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerLocations a:hover{
+    color: #00ffe5;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.footerContact{
+    text-align: left;
+    flex-direction: column;
+}
+
+.footerContact h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerContact p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerSocialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSocialMedia img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footerInformation{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.footerInformation h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerInformation a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerInformation a:hover{
+    text-decoration: underline;
+    color: #55f1ff;
+    transition: 0.3s;
+}
+
+.footerInformation li{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
