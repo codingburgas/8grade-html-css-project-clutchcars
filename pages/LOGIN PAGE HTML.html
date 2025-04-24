@@ -3,39 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Rental Login</title>
-    <link rel="stylesheet" href="LOGIN PAGE CSS.css">
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="/styles/loginPage.css">
 </head>
 <body>
-    <div class="loginContainer">
-        <div class="logo">
-            <img src="/api/placeholder/200/60" alt="Logo">
-        </div>
-        <div class="loginForm">
-            <h2 class="loginTitle">Login to Your Account</h2>
-            <form id="loginForm">
+    <div class="mainContainer">
+        <div class="loginSection">
+            <h1 class="sectionTitle">Login</h1>
+            <form class="loginForm">
                 <div class="inputGroup">
-                    <label for="userEmail">Email</label>
-                    <input type="email" id="userEmail" name="userEmail" required>
+                    <input type="email" id="userEmail" name="userEmail" placeholder="Email" required>
                 </div>
                 <div class="inputGroup">
-                    <label for="userPassword">Password</label>
-                    <input type="password" id="userPassword" name="userPassword" required>
+                    <input type="password" id="userPassword" name="userPassword" placeholder="Password" required>
                 </div>
-                <div class="rememberForgot">
-                    <div class="rememberMe">
-                        <input type="checkbox" id="rememberUser" name="rememberUser">
-                        <label for="rememberUser">Remember me</label>
-                    </div>
-                    <div class="forgotPassword">
-                        <a href="#">Forgot password?</a>
-                    </div>
+                <div class="forgotPassword">
+                    <a href="#">Forgot password?</a>
                 </div>
-                <button type="submit" class="loginButton">Log In</button>
+                <button type="submit" class="submitButton loginButton">Login</button>
             </form>
-            <div class="registerOption">
-                <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+        
+        <div class="registrationSection">
+            <h1 class="sectionTitle">Registration</h1>
+            <div class="notificationBox">
+                <p>Please provide data in international format.</p>
             </div>
+            <form class="registrationForm">
+                <div class="inputGroup">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="inputGroup">
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required>
+                </div>
+                <div class="inputGroup">
+                    <input type="email" id="regEmail" name="regEmail" placeholder="Email" required>
+                </div>
+                <button type="submit" class="submitButton registrationButton">Register</button>
+            </form>
         </div>
     </div>
 </body>
