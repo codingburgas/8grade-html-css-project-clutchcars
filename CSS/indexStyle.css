@@ -342,7 +342,7 @@ main {
 }
 
 .whyUsSection {
-    background: rgba(255, 255, 255);
+    background: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;

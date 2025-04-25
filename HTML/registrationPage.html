@@ -9,25 +9,16 @@
 <body>
     <video autoplay muted loop id="myVideo"><source src="../media/videos/xl.mp4" type="video/mp4"></video>
     <div class="mainContainer">
-        <div class="loginSection">
-            <h1 class="sectionTitle">Login</h1>
-            <form class="loginForm">
-                <div class="inputGroup">
-                    <input type="email" id="userEmail" name="userEmail" placeholder="Email" required>
-                </div>
-                <div class="inputGroup">
-                    <input type="password" id="userPassword" name="userPassword" placeholder="Password" required>
-                </div>
-                <div class="forgotPassword">
-                    <a href="#">Forgot password?</a>
-                </div>
-                <button type="submit" class="submitButton loginButton">Login</button>
-            </form>
+        <div class="informationSection">
+            <h2>Sign into your accout or register and travel with us!</h2>
+            <hr>
+            <div class="button">
+                <a href="loginPage.html"><div class="loginPageButton">Log in</div></a>
+            </div>
         </div>
-        
         <div class="registrationSection">
             <h1 class="sectionTitle">Registration</h1>
-            <form class="registrationForm">
+            <form class="registrationForm" action="mainPage.html">
                 <div class="inputGroup">
                     <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
                 </div>
@@ -43,7 +34,9 @@
                 <div class="inputGroup">
                     <input type="password" id="regPassword" name="regPassword" placeholder="Password" required>
                 </div>
-                <button type="submit" class="submitButton registrationButton">Register</button>
+                <div class="button">
+                    <button type="submit" class="submitButton registrationButton">Register</button>
+                </div>
             </form>
         </div>
     </div>
