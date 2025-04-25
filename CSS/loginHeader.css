@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+h5{
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stepsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.step{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.currentStep{
+    background-color: #55f1ff;
+    color: white;
+    padding: 10px 20px;
+    height: 50px;
+}
