@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: blur(1px);
+    z-index: -1;
+}
+  
+.animationContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.animation {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #55f1ff;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #333;
+    transition: 0.3s;
+}
+
+
