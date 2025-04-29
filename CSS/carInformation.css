@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.mainContainer {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.imageGallery {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.imageGallery img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #55f1ff;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+}
+
+.arrowButton:hover {
+    background-color: #333;
+}
+
+.arrowButton:first-of-type {
+    left: 0;
+    border-radius: 5px;
+}
+
+.arrowButton:last-of-type {
+    right: 0;
+    border-radius: 5px;
+}
+
+.detailsSection {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detailsSection h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 26px;
+    color: #55f1ff;
+    margin: 10px 0;
+}
+
+.vatIncluded {
+    display: block;
+    font-size: 14px;
+    color: #444;
+}
+
+.buyButton {
+    background-color: #55f1ff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.buyButton:hover {
+    transition: 0.3s;
+    background-color: #333;
+}
+
+.saveAdButton {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.dealer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.specsSection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fafafa;
+    gap: 10px;
+}
+
+.specItem {
+    font-size: 15px;
+    padding: 10px;
+}

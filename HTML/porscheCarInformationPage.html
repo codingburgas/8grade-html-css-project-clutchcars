@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+    <link rel="stylesheet" href="../CSS/carInformation.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="../media/videos/xl.mp4" type="video/mp4"></video>
+    <header>
+        <nav>
+            <a href="index.html"><img src="../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Logo" class="logo"></a>
+            <ul>
+                <li><a href="HTML/aboutUsPage.html">About us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <div class="mainContainer">
+        <div class="imageGallery">
+            <button class="arrowButton" onclick="changeImage(-1)">&#10094;</button>
+            <img id="mainImage" src="../media/pictures/cars/porsche.png" alt="Car image">
+            <button class="arrowButton" onclick="changeImage(1)">&#10095;</button>
+        </div>
+        <div class="detailsSection">
+            <h2>Porsche 911 Turbo S</h2>
+            <p class="price">60 $ a day <span class="vatIncluded">Price includes VAT</span></p>
+            <div class="buyButton">Rent</div>
+        </div>
+        <div class="specsSection">
+            <div class="specItem"><strong>Year of manufacture:</strong> 2012</div>
+            <div class="specItem"><strong>Engine:</strong> Diesel</div>
+            <div class="specItem"><strong>Power:</strong> 245 hp</div>
+            <div class="specItem"><strong>Range:</strong> 1 km</div>
+            <div class="specItem"><strong>Transmission:</strong> Automatic</div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerContent">
+            <div class="footerLocations">
+                <h3>Locations</h3>
+                <ul>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Skyreach Airport - Terminal 3 (SKR)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Driftwood Harbor (DWH)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Novaterra Intergalactic Hub (NGX)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Elysium City - Gate 5 (ELY)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Crystal Bay Transit Station (CBT)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Ironpine Station (IPS)</a></li>
+                </ul>
+            </div>
+            <div class="footerInformation">
+                <h3>Information</h3>
+                <ul>
+                    <a href="#"><li>About us</li></a>
+                </ul>
+            </div>
+            <div class="footerContact">
+                <h3>Follow us on</h3>
+                <div class="footerSocialMedia">
+                    <div>
+                        <a href="https://www.instagram.com/"><img src="../media/pictures/socialMedia/instagram.svg" alt="instagram"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/"><img src="../media/pictures/socialMedia/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <div>
+                        <a href="https://x.com/home"><img src="../media/pictures/socialMedia/twitter.svg" alt="twitter"></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Main office</h3>
+                    <p>Skyreach Airport - Terminal 3 (SKR)</p>
+                </div>
+                <div>
+                    <h3>Phone number</h3>
+                    <p>+359 88 888 88 88</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/porsche.js"></script>
+</body>
+</html>
