@@ -3,13 +3,14 @@ footer{
     color: #fff;
     padding: 20px 40px;
     text-align: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .footerContent{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    width: 100%;
 }
 
 .footerLocations{
@@ -85,6 +86,7 @@ footer{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    min-width: 200px;
 }
 
 .footerInformation h3{
