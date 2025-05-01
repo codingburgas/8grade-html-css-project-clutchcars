@@ -8,20 +8,6 @@ body{
     width: 100%;
 }
 
-.backgroundVideo{
-    bottom: 0;
-    height: 100vh;
-    left: 0;
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100vw;
-    z-index: 0;
-    filter: opacity(0.5);
-}
-
 .formSection{
     position: relative;
     margin: 20px auto;
