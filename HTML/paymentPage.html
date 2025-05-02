@@ -10,115 +10,46 @@
     <link rel="stylesheet" href="../CSS/payment.css" />
   </head>
   <body>
+    <video autoplay muted loop id="myVideo"><source src="../media/videos/xl.mp4" type="video/mp4"></video>
     <header class="header">
-      <a href="index.html"
-        ><img
-          src="../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png"
-          alt="Logo"
-          class="logo"
-      /></a>
+      <a href="../HTML/mainPage.html"><img src="../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Logo" class="logo"></a>
       <div id="headerText"><b>Secure Payment</b></div>
     </header>
-    <hr />
+    <hr>
     <main>
       <h2>Payment Details</h2>
-      <form>
-        <label for="card-name">Card Name</label><br />
-        <input
-          type="text"
-          id="card-name"
-          name="card-name"
-          placeholder="Visa, MasterCard etc."
-          required
-        /><br />
+      <form action="successfulPayment.html" method="POST">
+        <label for="card-name">Card Name</label>
+        <input type="text" id="card-name" name="card-name" placeholder="Visa, MasterCard etc." required>
 
-        <label for="card-number">Card Number</label><br />
-        <input
-          type="text"
-          id="card-number"
-          name="card-number"
-          placeholder="1234567890123456"
-          required
-          pattern="\d{16}"
-        /><br />
-
+        <label for="card-number">Card Number</label>
+        <input type="text" id="card-number" name="card-number" placeholder="1234567890123456" required pattern="\d{16}"/>
         <div>
           <div>
-            <label for="exp-date">Expiration Date</label><br />
-            <input
-              type="text"
-              id="exp-date"
-              name="exp-date"
-              placeholder="MM/YY"
-              required
-              pattern="\d{2}/\d{2}"
-            />
+            <label for="exp-date">Expiration Date</label>
+            <input type="text" id="exp-date" name="exp-date" placeholder="MM/YY" required pattern="\d{2}/\d{2}">
           </div>
-
           <div>
             <label for="cvv">CVV</label><br />
-            <input
-              type="text"
-              id="cvv"
-              name="cvv"
-              placeholder="123"
-              required
-              pattern="\d{3,4}"
-            />
+            <input type="text" id="cvv" name="cvv" placeholder="123" required pattern="\d{3,4}">
           </div>
         </div>
-
-        <label for="zip">Billing ZIP Code</label><br />
-        <input
-          type="text"
-          id="zip"
-          name="zip"
-          placeholder="12345"
-          required
-          pattern="\d{5}"
-        /><br />
-
-        <a href="successfulPayment.html"
-          ><button type="submit">Submit Payment</button></a
-        >
+        <label for="zip">Billing ZIP Code</label>
+        <input type="text" id="zip" name="zip" placeholder="12345" required pattern="\d{5}">
+        <button type="submit">Submit Payment</button>
       </form>
     </main>
-
     <footer>
       <div class="footerContent">
         <div class="footerLocations">
           <h3>Locations</h3>
           <ul>
-            <li>
-              <a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7"
-                >Skyreach Airport - Terminal 3 (SKR)</a
-              >
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7"
-                >Driftwood Harbor (DWH)</a
-              >
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7"
-                >Novaterra Intergalactic Hub (NGX)</a
-              >
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7"
-                >Elysium City - Gate 5 (ELY)</a
-              >
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7"
-                >Crystal Bay Transit Station (CBT)</a
-              >
-            </li>
-            <li>
-              <a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7"
-                >Ironpine Station (IPS)</a
-              >
-            </li>
+            <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Skyreach Airport - Terminal 3 (SKR)</a></li>
+            <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Driftwood Harbor (DWH)</a></li> 
+            <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Novaterra Intergalactic Hub (NGX)</a></li>
+            <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Elysium City - Gate 5 (ELY)</a> </li>
+            <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Crystal Bay Transit Station (CBT)</a></li>
+            <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Ironpine Station (IPS)</a></li>
           </ul>
         </div>
         <div class="footerInformation">
@@ -131,25 +62,13 @@
           <h3>Follow us on</h3>
           <div class="footerSocialMedia">
             <div>
-              <a href="https://www.instagram.com/"
-                ><img
-                  src="../media/pictures/socialMedia/instagram.svg"
-                  alt="instagram"
-              /></a>
+              <a href="https://www.instagram.com/"><img src="../media/pictures/socialMedia/instagram.svg" alt="instagram"/></a>
             </div>
             <div>
-              <a href="https://www.facebook.com/"
-                ><img
-                  src="../media/pictures/socialMedia/facebook.svg"
-                  alt="facebook"
-              /></a>
+              <a href="https://www.facebook.com/"><img src="../media/pictures/socialMedia/facebook.svg" alt="facebook"/></a>
             </div>
             <div>
-              <a href="https://x.com/home"
-                ><img
-                  src="../media/pictures/socialMedia/twitter.svg"
-                  alt="twitter"
-              /></a>
+              <a href="https://x.com/home"><img src="../media/pictures/socialMedia/twitter.svg" alt="twitter"/></a>
             </div>
           </div>
           <div>
