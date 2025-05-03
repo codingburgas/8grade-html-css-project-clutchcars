@@ -1,0 +1,99 @@
+* {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.reviewSection {
+    padding: 5%;
+    font-size:larger;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+}
+
+.reviewForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.reviewForm label {
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color:#87a3ff;
+}
+
+.formColumn {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.reviewForm input, .reviewForm select, .reviewForm textarea {
+    padding:15px;
+    padding-top: 5px;
+    border: 2px solid #002e83;
+    border-radius: 5px;
+    font-size: larger;
+    width: 100%;
+    background-color:#bfc7ce;
+}
+
+#review {
+    min-width: 900px;
+}
+#carModel {
+    min-width: 300px;
+}
+#email {
+    max-height:80px;
+    min-width: 300px;
+}
+#name {
+   min-width: 300px; 
+}
+
+.reviewForm textarea {
+    resize: vertical;
+    width:100%;
+}
+
+.reviewForm button {
+    padding: 12px 20px;
+    font-size: larger;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+#aHeading {
+    align-self: center;
+    padding: 35px;
+    color:rgb(92, 182, 255);
+}
+
+h1, p {
+    color:#3d3d3d;
+    font-weight: bolder;
+}
+
+form button:hover {
+    color:#87a3ff;
+    background-color: #444;
+    transition: 0.3s;
+}
