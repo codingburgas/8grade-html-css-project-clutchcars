@@ -130,3 +130,9 @@ body {
     font-size: 15px;
     padding: 10px;
 }
+
+#buggatiDescription {
+    background-color: #bdb8b8;
+    border-radius: 5px;
+    border: 2px, solid #55f1ff;
+}
