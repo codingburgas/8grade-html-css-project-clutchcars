@@ -26,32 +26,33 @@
         <section class="reviewSection">
             <h1>Share Your Experience</h1>
             <p>Tell us what you think about our service!</p>
-            <div>
-                <h2 id="aHeading">Submit a review</h2>
-            </div>
             <form action="mainPage.html" method="POST" class="reviewForm">
-                <div class="formColumn">
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <div class="row">
+                    <div class="formColumn">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="formColumn">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    </div>
                 </div>
-                <div class="formColumn">
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-                </div>
-                <div class="formColumn">
-                    <label for="carModel">Car Model (optional):</label>
-                    <input type="text" id="carModel" name="carModel" placeholder="e.g. Tesla Model 3, BMW X5">
-                </div>
-                <div class="formColumn">
-                    <label for="rating">Overall Rating:</label>
-                    <select id="rating" name="rating" required>
-                        <option value="">Select a rating</option>
-                        <option value="5">★★★★★ - Excellent</option>
-                        <option value="4">★★★★☆ - Very Good</option>
-                        <option value="3">★★★☆☆ - Average</option>
-                        <option value="2">★★☆☆☆ - Poor</option>
-                        <option value="1">★☆☆☆☆ - Terrible</option>
-                    </select>
+                <div class="row">
+                    <div class="formColumn">
+                        <label for="carModel">Car Model (optional):</label>
+                        <input type="text" id="carModel" name="carModel" placeholder="e.g. Tesla Model 3, BMW X5">
+                    </div>
+                    <div class="formColumn">
+                        <label for="rating">Overall Rating:</label>
+                        <select id="rating" name="rating" required>
+                            <option value="">Select a rating</option>
+                            <option value="5">★★★★★ - Excellent</option>
+                            <option value="4">★★★★☆ - Very Good</option>
+                            <option value="3">★★★☆☆ - Average</option>
+                            <option value="2">★★☆☆☆ - Poor</option>
+                            <option value="1">★☆☆☆☆ - Terrible</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="formColumn">
                     <label for="review">Your Review:</label>

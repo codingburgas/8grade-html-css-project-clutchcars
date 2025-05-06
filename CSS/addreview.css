@@ -9,6 +9,7 @@
     font-size:larger;
     border-radius: 10px;
     text-align: center;
+    background-color: #000000a1;
 }
 
 input {
@@ -29,25 +30,21 @@ input {
     font-size: x-large;
     padding-top: 10px;
     padding-bottom: 0px;
-    color:#87a3ff;
+    color:#ffffff;
 }
 
 .formColumn {
-    flex: 1 1 45%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    align-items: center;
+    margin: 0px 20px;
 }
 
 .reviewForm input, .reviewForm select, .reviewForm textarea {
-    padding:15px;
-    padding-top: 5px;
-    border: 2px solid #002e83;
-    border-radius: 5px;
+    padding: 10px;
     font-size: larger;
     width: 100%;
-    background-color:#bfc7ce;
+    background-color:#ffffff;
+    border: none;
 }
 
 #review {
@@ -72,28 +69,28 @@ input {
 .reviewForm button {
     padding: 12px 20px;
     font-size: larger;
-    background-color: #333;
+    background-color: #55f1ff;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     align-self: flex-start;
     margin-top: 20px;
 }
 
-#aHeading {
-    align-self: center;
-    padding: 35px;
-    color:rgb(92, 182, 255);
-}
-
 h1, p {
-    color:#3d3d3d;
+    color:#ffffff;
     font-weight: bolder;
 }
 
 form button:hover {
-    color:#87a3ff;
-    background-color: #444;
+    color:#ffffff;
+    background-color: #333;
     transition: 0.3s;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
 }
