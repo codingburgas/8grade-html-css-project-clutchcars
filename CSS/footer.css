@@ -117,3 +117,7 @@ footer{
     color: #fff;
 }
 
+.footerInformation li:hover{
+    color: #55f1ff;
+    transition: 0.3s;
+}
