@@ -1,7 +1,7 @@
 const imagePaths = [
-    "../media/pictures/cars/lamborghini.png",
-    "../media/pictures/cars/backView/lamborghiniBackView.jpg",
-    "../media/pictures/cars/interiorPictures/lambotghiniInterior.avif"
+    "../../media/pictures/cars/lamborghini.png",
+    "../../media/pictures/cars/backView/lamborghiniBackView.jpg",
+    "../../media/pictures/cars/interiorPictures/lambotghiniInterior.avif"
 ];
 
 let currentIndex = 0;

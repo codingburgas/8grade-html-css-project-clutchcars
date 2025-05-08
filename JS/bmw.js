@@ -1,7 +1,7 @@
 const imagePaths = [
-    "../media/pictures/cars/bmw.png",
-    "../media/pictures/cars/backView/bmwBackView.jpg",
-    "../media/pictures/cars/interiorPictures/bmwInterior.webp"
+    "../../media/pictures/cars/bmw.png",
+    "../../media/pictures/cars/backView/bmwBackView.jpg",
+    "../../media/pictures/cars/interiorPictures/bmwInterior.webp"
 ];
 
 let currentIndex = 0;

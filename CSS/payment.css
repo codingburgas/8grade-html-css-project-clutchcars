@@ -53,11 +53,16 @@ form input[type="password"] {
   border: 1px solid #dddddd;
   border-radius: 6px;
   font-size: 16px;
-  background-color: #d4e0df;
+  background-color: #ffffff;
 }
 
 form input:focus {
   border-color: #00ffe5;
+  outline: none;
+}
+
+form input:hover {
+  border-color: #55f1ff;
   outline: none;
 }
 
