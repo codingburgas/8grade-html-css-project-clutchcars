@@ -24,7 +24,10 @@ h1 {
 }
 
 main {
-    padding: 10px 70px;
+    margin: 10px 70px;
+    padding: 20px;
+    background-color: #000000a1;
+    border-radius: 10px;
 }
 
 ol > li {
