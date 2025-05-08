@@ -69,3 +69,12 @@ nav li:hover{
     height: 40px;
     margin-left: 10px;
 }
+
+nav ul li {
+    padding-left: 25px;
+    border-left: 1px solid #ccc;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
