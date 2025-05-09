@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a car!</title>
+    <link rel="stylesheet" href="../../CSS/rentCar.css">
+    <link rel="stylesheet" href="../../CSS/footer.css">
+    <link rel="stylesheet" href="../../CSS/nav.css">
+    <link rel="icon"  href="../../media/pictures/icon.png">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo"><source src="../../media/videos/xl.mp4" type="video/mp4"></video>
+    <header>
+        <nav>
+            <a href="index.html"><img src="../../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Logo" class="logo"></a>
+            <ul>
+                <li><a href="HTML/aboutUsPage.html">About us</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+            </ul>
+            <div class="login"><img src="../../media/pictures/userIcon.png" class="userIcon"></div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div>
+            <img src="../../media/pictures/cars/car.webp" alt="Logo" class="logo2">
+        </div>
+        <div class="rentContainer">
+        <h1>Rent your car</h1>
+        <p>Select the time that you are going to pick up and return the car.</p>
+        <form>
+            <div class="formGroup">
+                <div class="formRow">
+                    <div>
+                        <h4>Pick Up</h4>
+                        <div class="pickUpContainer">
+                            <div>
+                                <label for="pickUpDate">Date</label>
+                                <input type="date" id="pickUpDate" name="pickUpDate" required>
+                            </div>
+                            <div>
+                                <label for="pickUpTime">Time</label>
+                                <input type="time" id="pickUpTime" name="pickUpTime" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Return</h4>
+                        <div class="pickUpContainer">
+                            <div>
+                                <label for="pickUpDate">Date</label>
+                                <input type="date" id="pickUpDate" name="pickUpDate" required>
+                            </div>
+                            <div>
+                                <label for="pickUpTime">Time</label>
+                                <input type="time" id="pickUpTime" name="pickUpTime" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formRow">
+                    <div>
+                        <label for="pickUpLocation">Location</label>
+                        <div class="pickUpContainer">
+                            <select id="pickUpLocation" name="pickUpLocation" required>
+                                <option value="" disabled selected>Select a location</option>
+                                <option value="Skyreach Airport - Terminal 3 (SKR)">Skyreach Airport - Terminal 3 (SKR)</option>
+                                <option value="Driftwood Harbor (DWH)">Driftwood Harbor (DWH)</option>
+                                <option value="Novaterra Intergalactic Hub (NGX)">Novaterra Intergalactic Hub (NGX)</option>
+                                <option value="Elysium City - Gate 5 (ELY)">Elysium City - Gate 5 (ELY)</option>
+                                <option value="Crystal Bay Transit Station (CBT)">Crystal Bay Transit Station (CBT)</option>
+                                <option value="Ironpine Station (IPS)">Ironpine Station (IPS)</option>
+                            </select>    
+                        </div>
+                    </div>
+                    <div>
+                        <label for="pickUpLocation">Location</label>
+                        <div class="pickUpContainer">
+                            <select id="pickUpLocation" name="pickUpLocation" required>
+                                <option value="" disabled selected>Select a location</option>
+                                <option value="Skyreach Airport - Terminal 3 (SKR)">Skyreach Airport - Terminal 3 (SKR)</option>
+                                <option value="Driftwood Harbor (DWH)">Driftwood Harbor (DWH)</option>
+                                <option value="Novaterra Intergalactic Hub (NGX)">Novaterra Intergalactic Hub (NGX)</option>
+                                <option value="Elysium City - Gate 5 (ELY)">Elysium City - Gate 5 (ELY)</option>
+                                <option value="Crystal Bay Transit Station (CBT)">Crystal Bay Transit Station (CBT)</option>
+                                <option value="Ironpine Station (IPS)">Ironpine Station (IPS)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="submitButton">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footerContent">
+            <div class="footerLocations">
+                <h3>Locations</h3>
+                <ul>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Skyreach Airport - Terminal 3 (SKR)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Driftwood Harbor (DWH)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Novaterra Intergalactic Hub (NGX)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Elysium City - Gate 5 (ELY)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Crystal Bay Transit Station (CBT)</a></li>
+                    <li><a href="https://maps.app.goo.gl/vH2EtFQRX5vjRpeU7">Ironpine Station (IPS)</a></li>
+                </ul>
+            </div>
+            <div class="footerInformation">
+                <h3>Information</h3>
+                <ul>
+                    <a href="#"><li>About us</li></a>
+                    <a href="#"><li>FAQ</li></a>
+                    <a href="#"><li>Terms and conditions</li></a>
+                    <a href="#"><li>Reviews</li></a>
+                </ul>
+            </div>
+            <div class="footerContact">
+                <h3>Follow us on</h3>
+                <div class="footerSocialMedia">
+                    <div>
+                        <a href="https://www.instagram.com/"><img src="../../media/pictures/socialMedia/instagram.svg" alt="instagram"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/"><img src="../../media/pictures/socialMedia/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <div>
+                        <a href="https://x.com/home"><img src="../../media/pictures/socialMedia/twitter.svg" alt="twitter"></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Main office</h3>
+                    <p>Skyreach Airport - Terminal 3 (SKR)</p>
+                </div>
+                <div>
+                    <h3>Phone number</h3>
+                    <p>+359 88 888 88 88</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
