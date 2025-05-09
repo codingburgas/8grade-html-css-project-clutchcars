@@ -32,6 +32,7 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .animation {
@@ -45,8 +46,10 @@ body {
     font-size: 20px;
     color: white;
     text-align: center;
-    margin-top: 20px;
     font-family: 'Arial', sans-serif;
+    padding: 10px;
+    background-color: #000000a1;
+    border-radius: 10px;
 }
 
 a {
@@ -58,6 +61,7 @@ a {
     padding: 10px 20px;
     background-color: #55f1ff;
     transition: background-color 0.3s ease;
+    border-radius: 4px;
 }
 
 a:hover {

@@ -21,6 +21,8 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .reviewTitle {
@@ -68,4 +70,11 @@ body {
 .addReviewButton:hover {
     background-color: #333;
     transition: 0.3s;
+}
+
+h1{
+    padding: 10px;
+    background-color: #000000a1;
+    width: fit-content;
+    border-radius: 10px;
 }

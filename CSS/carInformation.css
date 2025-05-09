@@ -138,3 +138,7 @@ body {
     border-radius: 5px;
     border: 2px, solid #55f1ff;
 }
+
+a{
+    text-decoration: none;
+}

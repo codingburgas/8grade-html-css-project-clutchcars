@@ -1,6 +1,6 @@
 const imagePaths = [
     "../../media/pictures/cars/mercedes.png",
-    "../../media/pictures/cars/backView/mercedesBackView.avif",
+    "../../media/pictures/cars/backView/mercedesBackView.png",
     "../../media/pictures/cars/interiorPictures/mercedesInterior.jpg"
 ];
 

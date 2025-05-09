@@ -148,41 +148,6 @@ main {
     gap: 20px; 
 }
 
-.promoContent h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 40px;
-    text-align: left;
-}
-
-.promoContent p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.promoIcons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 40px;
-}
-
-.promoIcons img {
-    height: 40px;
-    width: auto;
-}
-
-.promoStats {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: #000000a1;
-    padding: 20px;
-    border-radius: 10px;
-}
-
 .carCard a {
     text-decoration: none;
     color: inherit; 
@@ -207,7 +172,6 @@ main {
 h4 {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
     color: #ffffff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
