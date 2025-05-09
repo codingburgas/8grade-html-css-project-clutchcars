@@ -78,3 +78,13 @@ nav ul li {
 nav ul li:first-child {
     border-left: none;
 }
+
+#headerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    flex-grow:  1;
+}
