@@ -83,8 +83,6 @@ nav ul li:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    list-style: none;
-    gap: 20px;
+    flex-direction: row; 
     flex-grow:  1;
 }
