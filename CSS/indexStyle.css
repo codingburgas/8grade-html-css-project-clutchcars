@@ -89,6 +89,7 @@ section{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; 
     justify-items: center;
+    align-items: center;
     width: 100%; 
     padding: 20px; 
     box-sizing: border-box; 
@@ -138,10 +139,6 @@ section{
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-}
-
-.carCard:hover {
-    transform: scale(1.05);
 }
 
 main {
@@ -198,4 +195,20 @@ main {
 .promoStats img {
     text-decoration: none;
     margin: 10px;
+}
+
+#lastCarCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
