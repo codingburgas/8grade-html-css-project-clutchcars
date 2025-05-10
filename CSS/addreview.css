@@ -12,6 +12,11 @@
     background-color: #000000a1;
 }
 
+.reviewSection h1 {
+    background-color: #000000a1;
+    margin-left: 700px;
+}
+
 input {
     height: 100%;
     width: 100%;
@@ -45,6 +50,7 @@ input {
     width: 100%;
     background-color:#ffffff;
     border: none;
+    border-radius: 8px;
 }
 
 #review {
@@ -72,9 +78,11 @@ input {
     background-color: #55f1ff;
     color: #fff;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
     align-self: flex-start;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
 h1, p {
