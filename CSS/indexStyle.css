@@ -136,8 +136,9 @@ section{
     padding: 40px;
     width: 100%;
     max-width: 100%;
-    background-color: transparent;
+    background-color: #1c23308a;
     border-radius: 0;
+    padding-left: 0px;
 }
 
 .carGrid {
@@ -231,4 +232,42 @@ h4 {
     color: #ffffff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter {
+    color: #ffffff;
+    background-color:dimgray;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.newsletter p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.newsletterForm button {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #636363;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 2px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.newsletterForm button:hover {
+    background-color:#55f1ff;
+    transition: 0.3s;
+    cursor:pointer;
 }
