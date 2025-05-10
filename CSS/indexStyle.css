@@ -119,12 +119,12 @@ section{
 }
 
 .whyUsItem {
+    background-color: #000000a1;
     display: flex;
     align-items: center;
     margin: 20px;
     max-width: 750px;
     gap: 5px;
-    background-color: #5e5e5ea4;
     padding: 10px;
     border-radius: 12px;
 }
@@ -140,7 +140,6 @@ section{
     padding: 40px;
     width: 100%;
     max-width: 100%;
-    background-color: #1c23308a;
     border-radius: 0;
     padding-left: 0px;
 }
@@ -158,7 +157,6 @@ section{
 
 .carCard {
     background-color: #000000a1;
-    border: 4px, solid white;
     border-radius: 10px;
     padding: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -254,7 +252,7 @@ h4 {
 }
 
 .reviewBox {
-    background-color:#636363c2;
+    background-color:#000000a1;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -287,7 +285,7 @@ h4 {
 
 .newsletter {
     color: #ffffff;
-    background-color:dimgray;
+    background-color:#000000a1;
     border-radius: 8px;
     margin: 20px;
     padding: 20px;
