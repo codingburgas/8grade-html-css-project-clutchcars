@@ -1,6 +1,6 @@
 <h3 align="center"> App name: Clutch Cars </h3> 
 <div align="center">
-    <img src = file:///e%3A/gitHubRepos/8grade-html-css-project-clutchcars/media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" width = "300" height ="300" alt = "Game logo" />
+    <img src="media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" width="300" height="300" alt="Game logo" />
     </div>
 <br>
     
@@ -66,7 +66,7 @@ Email: HAMihaylov24@codingburgas.bg
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" width="20" alt="MS Word Logo"> <a href="https://docs.google.com/document/d/19XTX2Ym85UwSp64xtdxDwVCRbT_Imrb4_CQ9N7OuHqA/edit?pli=1&tab=t.0">Documentation</a>
 <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="20" alt="MS PowerPoint Logo"> <a href="https://eu.docworkspace.com/d/sIMLI55yFAqfwjb8G">Presentation</a>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="20" alt="MS PowerPoint Logo"> <a href="https://docs.google.com/presentation/d/1foJ7UwCdLUA35RySkhfA6C5HqN9EdaK_Bpelg8s1hWs/edit#slide=id.p1">Presentation</a>
 <br>
 
 </p>
