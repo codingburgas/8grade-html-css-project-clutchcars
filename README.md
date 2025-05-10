@@ -1,6 +1,6 @@
-<h3 align="center"> App name: Clutch Cars </h3> 
+<h3 align="center"> Clutch Cars </h3> 
 <div align="center">
-    <img src="media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" width="300" height="300" alt="Game logo" />
+    <img src="media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Game logo" />
     </div>
 <br>
     
@@ -24,7 +24,7 @@
 <!-- USED TECHNOLOGIES -->    
 ##  Used Technologies
 - <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="20" alt="CSS Logo"> [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Adobe_Photoshop_CC_icon.svg" width="20" alt="Photoshop Logo"> [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" width="20" alt="Photoshop Logo"> [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" alt="GitHub Logo"> [GitHub](https://github.com/)
 - <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="20" alt="Git Logo"> [Git](https://git-scm.com/)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="20" alt="JavaScript Logo"> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
