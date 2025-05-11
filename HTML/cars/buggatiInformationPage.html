@@ -10,7 +10,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../media/pictures/icon.png">
 </head>
 <body>
+    <!-- Background -->
     <video autoplay muted loop id="myVideo"><source src="../../media/videos/xl.mp4" type="video/mp4"></video>
+    <!-- Header -->
     <header>
         <nav>
             <a href="../mainPage.html"><img src="../../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Logo" class="logo"></a>
@@ -24,28 +26,36 @@
         </nav>
         <hr>
     </header>
+    <!-- Main content -->
     <div class="mainContainer">
+        <!-- Box with car information/images -->
         <div class="imageGallery">
+            <!-- Image gallery -->
             <button class="arrowButton" onclick="changeImage(-1)">&#10094;</button>
             <img id="mainImage" src="../../media/pictures/cars/buggati.png" alt="Car image">
             <button class="arrowButton" onclick="changeImage(1)">&#10095;</button>
         </div>
         <div class="detailsSection">
+            <!-- General car information -->
             <h2>Orion Striker X5</h2>
             <p class="price">25 $ a day</p>
             <a href="rentCar.html"><div class="buyButton">Rent</div></a>
         </div>
         <div class="specsSection">
+            <!-- Details/information -->
             <div class="specItem"><strong>Year of manufacture:</strong> 2022</div>
             <div class="specItem"><strong>Engine:</strong> 2.5L Inline-4 Turbo Hybrid</div>
             <div class="specItem"><strong>Power:</strong> 450 hp</div>
             <div class="specItem"><strong>Velocity:</strong> 285 km/h</div>
             <div class="specItem"><strong>Range:</strong> 980 km</div>
             <div class="specItem"><strong>Transmission:</strong> 6-speed manual</div>
-            <div class="description"><strong>Description: </strong> 
-            <p>A lightweight street racer with a hybrid punch. The Striker X5 thrives in tight corners and narrow city roads, combining cutting-edge fuel economy with pure driver engagement.</p></div>
+            <div class="description">
+                <!-- Long description -->
+                <strong>Description: </strong> 
+                <p>A lightweight street racer with a hybrid punch. The Striker X5 thrives in tight corners and narrow city roads, combining cutting-edge fuel economy with pure driver engagement.</p></div>
         </div>
     </div>
+    <!-- Footer -->
     <footer>
         <div class="footerContent">
             <div class="footerLocations">
@@ -92,7 +102,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- Link to JS code for images -->
     <script src="../../JS/buggati.js"></script>
 </body>
 </html>

@@ -10,7 +10,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../media/pictures/icon.png">
 </head>
 <body>
+    <!-- Background -->
     <video autoplay muted loop id="myVideo"><source src="../../media/videos/xl.mp4" type="video/mp4"></video>
+    <!-- Header -->
     <header>
         <nav>
             <a href="../mainPage.html"><img src="../../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Logo" class="logo"></a>
@@ -24,28 +26,36 @@
         </nav>
         <hr>
     </header>
+    <!-- Main content -->
     <div class="mainContainer">
+        <!-- Box with car information/images -->
         <div class="imageGallery">
+            <!-- Image gallery -->
             <button class="arrowButton" onclick="changeImage(-1)">&#10094;</button>
             <img id="mainImage" src="../../media/pictures/cars/mercedes.png" alt="Car image">
             <button class="arrowButton" onclick="changeImage(1)">&#10095;</button>
         </div>
         <div class="detailsSection">
+            <!-- General information -->
             <h2>Veltrax Nova GT</h2>
             <p class="price">45 $ a day</p>
             <a href="rentCar.html"><div class="buyButton">Rent</div></a>
         </div>
         <div class="specsSection">
+            <!-- Car specifics -->
             <div class="specItem"><strong>Year of manufacture:</strong> 2023</div>
             <div class="specItem"><strong>Engine:</strong> 4.2L V8 Twin Turbo</div>
             <div class="specItem"><strong>Power:</strong> 612 hp</div>
             <div class="specItem"><strong>Velocity:</strong> 330 km/h</div>
             <div class="specItem"><strong>Range:</strong> 720 km</div>
             <div class="specItem"><strong>Transmission:</strong> 7-speed dual-clutch automatic</div>
-            <div class="description"><strong>Description: </strong>
-            <p>A sleek grand tourer built for endless highways. The Nova GT blends luxury and raw power, delivering sharp acceleration with velvet-smooth handling. Ideal for both racetracks and long-distance cruising.</p></div>
+            <div class="description">
+                <!-- Long description -->
+                <strong>Description: </strong>
+                <p>A sleek grand tourer built for endless highways. The Nova GT blends luxury and raw power, delivering sharp acceleration with velvet-smooth handling. Ideal for both racetracks and long-distance cruising.</p></div>
         </div>
     </div>
+    <!-- Footer -->
     <footer>
         <div class="footerContent">
             <div class="footerLocations">
@@ -92,7 +102,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- Link to JS code for images -->
     <script src="../../JS/mercedes.js"></script>
 </body>
 </html>

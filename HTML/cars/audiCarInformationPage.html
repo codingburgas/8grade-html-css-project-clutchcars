@@ -10,7 +10,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../media/pictures/icon.png">
 </head>
 <body>
+    <!-- Background -->
     <video autoplay muted loop id="myVideo"><source src="../../media/videos/xl.mp4" type="video/mp4"></video>
+    <!-- Header -->
     <header>
         <nav>
             <a href="../mainPage.html"><img src="../../media/logo/0-02-05-3b0a49952040b901164094ce6b38c3983a015ad692aadf50070ec6cac9d85674_12b5ef91f643cffa-removebg-preview.png" alt="Logo" class="logo"></a>
@@ -24,18 +26,23 @@
         </nav>
         <hr>
     </header>
+    <!-- The main content of the page -->
     <div class="mainContainer">
+        <!-- Box with car information/pictures -->
         <div class="imageGallery">
+            <!-- Image gallery -->
             <button class="arrowButton" onclick="changeImage(-1)">&#10094;</button>
             <img id="mainImage" src="../../media/pictures/cars/audi.png" alt="Car image">
             <button class="arrowButton" onclick="changeImage(1)">&#10095;</button>
         </div>
         <div class="detailsSection">
+            <!-- General car information -->
             <h2>Tarnox Thunderbolt S</h2>
             <p class="price">20 $ a day</p>
             <a href="rentCar.html"><div class="buyButton">Rent</div></a>
         </div>
         <div class="specsSection">
+            <!-- Details and information -->
             <div class="specItem"><strong>Year of manufacture:</strong> 2024</div>
             <div class="specItem"><strong>Engine:</strong> 5.0L V10 Naturally Aspirated</div>
             <div class="specItem"><strong>Power:</strong> 720 hp</div>
@@ -43,11 +50,13 @@
             <div class="specItem"><strong>Range:</strong> 650 km</div>
             <div class="specItem"><strong>Transmission:</strong> 8-speed automatic with paddle shifters</div>
             <div class="description">
+                <!-- Long description -->
                 <strong>Description: </strong>
                 <p>A beast forged for adrenaline. The Thunderbolt S is brutal, loud, and unforgiving — built for enthusiasts who want nothing but raw speed and the growl of ten cylinders behind them.</p>    
             </div>
         </div>
     </div>
+    <!-- Footer -->
     <footer>
         <div class="footerContent">
             <div class="footerLocations">
@@ -94,7 +103,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- Link to JS code for images -->
     <script src="../../JS/audi.js"></script>
 </body>
 </html>
