@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Basic meta tags for character encoding and responsive design -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page title shown in browser tab -->
   <title>Rent a car!</title>
-    <link rel="stylesheet" href="../../CSS/succesfulPayment.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../media/pictures/icon.png">
+  <!-- CSS file link for styling the successful payment page -->
+  <link rel="stylesheet" href="../../CSS/succesfulPayment.css">
+  <!-- Favicon/site icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../../media/pictures/icon.png">
 </head>
 <body>
-    <video autoplay muted loop id="myVideo"><source src="../../media/videos/xl.mp4" type="video/mp4"></video>
-    <div class="animationContainer">
-        <div class="text">
-            <h1>Thank you for your order!</h1>
-            <p>Your order has been successfully placed. We will contact you shortly.</p>
-        </div>
-        <div class="animation">
-            <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.3.0/dist/dotlottie-wc.js" type="module"></script>
-            <dotlottie-wc src="https://lottie.host/a19e2286-072b-48fb-8c78-e732b9adf169/2XqrfR5xcH.lottie" autoplay class="animation"></dotlottie-wc>
-        </div>
-        <a href="../mainPage.html"><div class="button">Back to main page</div></a>
+  <!-- Background video that plays automatically -->
+  <video autoplay muted loop id="myVideo"><source src="../../media/videos/xl.mp4" type="video/mp4"></video>
+  
+  <!-- Main container for the success message and animation -->
+  <div class="animationContainer">
+    <!-- Text section containing the success message -->
+    <div class="text">
+      <h1>Thank you for your order!</h1>
+      <p>Your order has been successfully placed. We will contact you shortly.</p>
     </div>
+    
+    <!-- Animation section with Lottie animation -->
+    <div class="animation">
+      <!-- Import the Lottie web component library -->
+      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.3.0/dist/dotlottie-wc.js" type="module"></script>
+      <!-- Lottie animation component with auto-play enabled -->
+      <dotlottie-wc src="https://lottie.host/a19e2286-072b-48fb-8c78-e732b9adf169/2XqrfR5xcH.lottie" autoplay class="animation"></dotlottie-wc>
+    </div>
+    
+    <!-- Button/link to return to the main page -->
+    <a href="../mainPage.html"><div class="button">Back to main page</div></a>
+  </div>
 </body>
 </html>
