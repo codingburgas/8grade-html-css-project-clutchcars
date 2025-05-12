@@ -23,7 +23,8 @@
     
 <!-- USED TECHNOLOGIES -->    
 ##  Used Technologies
-- <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="20" alt="CSS Logo"> [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="20" alt="CSS Logo"> [HTML 5](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="20" alt="CSS Logo"> [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" width="20" alt="Photoshop Logo"> [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 - <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" alt="GitHub Logo"> [GitHub](https://github.com/)
 - <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="20" alt="Git Logo"> [Git](https://git-scm.com/)
